@@ -22,6 +22,7 @@
     "skroll": "^1.4.3",
     "swiper": "^10.0.4",
     "vite-plugin-full-reload": "^1.0.5",
+    "vite-plugin-handlebars": "^2.0.0",
     "vite-plugin-html-inject": "^1.0.1"
   }
 }

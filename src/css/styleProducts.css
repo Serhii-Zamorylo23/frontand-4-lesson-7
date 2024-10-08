@@ -1,0 +1,55 @@
+#product-list {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Стилі для кожного продукту */
+#product-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#product-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+#product-list li:last-child {
+  border-bottom: none;
+}
+
+#product-list strong {
+  font-size: 18px;
+  color: #333;
+}
+
+/* Статус продукту */
+#product-list li p {
+  font-size: 14px;
+  color: #888;
+}
+
+#product-list li p.available {
+  color: green;
+  font-weight: bold;
+}
+
+#product-list li p.unavailable {
+  color: red;
+  font-weight: bold;
+}
+
+/* Стиль для ціни */
+#product-list li span.price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #555;
+}
